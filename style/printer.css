@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+}
+.divHeader{
+    border-style: inset;
+    border-color: white;
+    float: left;
+    width: 15%;
+    padding: 50px;
+    margin: 30px 30px 10px 7%;
+    text-align: center;
+    position: sticky;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#welcome{
+    text-align: center;
+    color: black;
+    font-family: "Times New Roman";
+}
+#divWelcome h2{
+    text-decoration: underline;
+    border-style: solid;
+    border-width: thick;
+}
+
+#aWelcome img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+p{
+    font-family: "serif";
+    font-size: 12px;
+}
+p b{
+    font-size: 16px;
+}
+span{
+    margin: 5%;
+    padding-top: 10%;
+}
+.especialiad{
+    border-style: inset;
+    border-color: darkgrey;
+    float: left;
+    width: 15%;
+    padding: 50px;
+    margin: 30px 30px 10px 7%;
+    text-align: center;
+    position: sticky;
+}
+.especialiad img{
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin: auto
+}
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+a:hover{
+    font-size: 18px;
+    color: black;
+}
+ul {
+    list-style-position: outside;
+    list-style-type: square;
+}
