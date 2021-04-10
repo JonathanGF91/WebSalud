@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\joni_\PhpstormProjects\WebSalud\dbWebSalud.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="dbWebSalud [2]" uuid="76320a4d-f4df-4e24-b986-25f9bff09155">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\joni_\PhpstormProjects\WebSalud\dataBase\dbWebSalud.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

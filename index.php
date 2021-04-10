@@ -9,8 +9,13 @@
 <body>
 <!--cabecera -->
 <div id="divWelcome">
+    <div id="log" class="clearfix">
+        <button class="button button1"><a href="login.php">Sign in</a></button>
+        <button class="button button2"><a href="register.php">Sign up</a></button>
+    </div>
     <h2 id="welcome">Clínica web salud</h2>
     <a id="aWelcome" href="./index.php"><img src="images/logoClinica.png" alt="Clínica web salud"></a>
+
 </div>
 <div class="clearfix">
     <div class="divHeader"><a href="./index.php"><p>Inicio</p></a></div>

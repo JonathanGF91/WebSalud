@@ -6,6 +6,7 @@ body{
     border-color: aquamarine;
     float: left;
     width: 15%;
+    height: 3%;
     padding: 50px;
     margin: 30px 30px 10px 7%;
     text-align: center;
@@ -29,9 +30,8 @@ body{
 
 #aWelcome img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    margin: 15px 50px 15px 50px;
+    width: 20%;
 }
 p{
     font-family: "Times New Roman";
@@ -77,4 +77,48 @@ a:hover{
 ul {
     list-style-position: outside;
     list-style-type: square;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#log {
+    float: right;
+    width: 15%;
+    padding: 50px;
+    margin: 30px 30px 10px 7%;
+    text-align: center;
+    position: sticky;
 }
